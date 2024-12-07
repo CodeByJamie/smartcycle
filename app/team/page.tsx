@@ -1,4 +1,7 @@
+import * as Components from '../components';
+
 export default function MeetTheTeam() {
+
     const teamMembers = [
       { name: "Neve Morrison", role: "Project Manager & Research Lead" },
       { name: "Noah Ward", role: "Software Lead" },
@@ -9,6 +12,7 @@ export default function MeetTheTeam() {
   
     return (
       <div className="bg-gray-50 min-h-screen">
+        <Components.Navigation.Header />
         <header className="bg-green-600 text-white py-12">
           <div className="container mx-auto text-center">
             <h1 className="text-4xl font-bold">Meet the Team</h1>
